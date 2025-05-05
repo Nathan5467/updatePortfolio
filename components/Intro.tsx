@@ -182,7 +182,7 @@ export default function Intro() {
           }
           locale={false}
         >
-          {"My photo"}
+          {"Hi, I'm Nathan"}
           <HiDownload />
         </Link>
       </motion.div>
