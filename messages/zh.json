@@ -1,0 +1,18 @@
+{
+    "IntroSection": {
+        "hello_im": "Hi, my name is",
+        "name": "Nhat Thang",
+        "short_intro": "I enjoy building things for the web3.",
+        "download_cv": "Download CV",
+        "blog": "Blog"
+    },
+    "SectionName": {
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills"
+    },
+    "AboutSection": {
+        "desc": "During my undergraduate studies at Hanoi University of Science and Technology, I developed a solid foundation in software engineering, with a growing passion for decentralized applications and blockchain-based solutions. In my third year, I began focusing on modern front-end frameworks and smart contract integration, diving deep into technologies like Web3.js and Next.js. My curiosity led me to build full-stack dApps that combined Solidity smart contracts with scalable, user-friendly interfaces. Through internships and freelance projects, I contributed to DeFi dashboards, NFT marketplaces, and DAO tooling platforms. These real-world challenges sharpened my technical and problem-solving skills while solidifying my career direction. I'm proficient in JavaScript, TypeScript, React, and TailwindCSS, and have hands-on experience with Foundry, Hardhat, and IPFS. In my spare time, I enjoy experimenting with on-chain logic, writing about Web3 trends, and sharing coding insights. Outside of tech, I stay balanced through cooking, working out, and exploring new music and films 🍲💪🎬."
+    }
+}
