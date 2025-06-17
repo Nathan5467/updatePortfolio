@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { BsArrowRight, BsMicrosoftTeams, BsTelegram } from "react-icons/bs"
+import { BsWhatsapp, BsMicrosoftTeams, BsTelegram } from "react-icons/bs"
 import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from "react-icons/fa"
 import Link from "next/link"
@@ -37,7 +37,7 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/nathan.jpg"
+              src="/Ranilo.jpg"
               alt="developer-image"
               width="300"
               height="300"
@@ -71,9 +71,6 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        {/* <span className={`${sourceCodePro.className} text-sm tracking-wider `}>
-          {t("hello_im")}
-        </span> */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -85,11 +82,6 @@ export default function Intro() {
           </h1>
 
           <div className="text-center">
-            {/* <span
-              className={`${sourceCodePro.className} text-sm tracking-wider text-5xl`}
-            >
-              I&apos;m a{" "}
-            </span> */}
             <h2
               id="name"
               className=" text-center  text-2xl  sm:text-5xl lg:text-4xl lg:leading-normal font-extrabold"
@@ -125,25 +117,14 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        {/* <Link
-          href="#contact"
-          onClick={() => {
-            //setActiveSection("Contact")
-            setTimeOfLastClick(Date.now())
-          }}
-          className="group bg-gray-900 px-4 py-2 text-sm sm:text-lg text-white sm:px-7 sm:py-3 flex items-center gap-2  rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-        >
-          Contact me here
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link> */}
 
         <Link
           target="_blank"
           className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href={
             activeLocale == "en"
-              ? "/nathan-web3-resume.pdf"
-              : "/nathan-web3-resume.pdf"
+              ? "/Ranilo-web3-resume.pdf"
+              : "/Ranilo-web3-resume.pdf"
           }
           locale={false}
         >
@@ -152,12 +133,18 @@ export default function Intro() {
         </Link>
         <a
           className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://t.me/tothemarsx2/"
+          href="https://t.me/DevGlory/"
           target="_blank"
         >
           <BsTelegram />
         </a>
-
+        <a
+          className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://wa.me/639534482920/"
+          target="_blank"
+        >
+          <BsWhatsapp />
+        </a>
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Nathan5467"
@@ -172,19 +159,6 @@ export default function Intro() {
         >
           <BsMicrosoftTeams />
         </a>
-        {/* <Link
-          target="_blank"
-          className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href={
-            activeLocale == "en"
-              ? "/nathan.jpg"
-              : "/nathan.jpg"
-          }
-          locale={false}
-        >
-          {"Hi, I'm Nathan"}
-          <HiDownload />
-        </Link> */}
       </motion.div>
     </section>
   )

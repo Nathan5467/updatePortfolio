@@ -29,10 +29,10 @@ export default function About() {
       <span className="italic underline">
         {" "}
         <a
-          href="https://en.wikipedia.org/wiki/Hanoi_University_of_Science_and_Technology"
+          href="#"
           target="_blank"
         >
-          Hanoi University of Science and Technology
+          National University of Singapore
         </a>
       </span>
       , where I majored in computer science. I learned the fundamentals of
@@ -85,10 +85,10 @@ export default function About() {
             <span className="italic underline">
               {" "}
               <a
-                href="https://en.wikipedia.org/wiki/Hanoi_University_of_Science_and_Technology"
+                href="#"
                 target="_blank"
               >
-                Hanoi University of Science and Technology
+                National University of Singapore
               </a>
             </span>
             , where I majored in computer science. I learned the fundamentals of
