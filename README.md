@@ -106,4 +106,3 @@ Feel free to reach out for collaboration or feedback:
 
 - **Email:** nathanscott5467@gmail.com
 - **Telegram:** [@Awesome! Talent](https://t.me/DevGlory/)
-- **Whatsapp** [+ 63 953 448 2920](https://wa.me/639534482920/)
